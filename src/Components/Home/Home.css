@@ -67,10 +67,7 @@ height: 10px;
 i{
     font-family: 'Protest Riot', sans-serif;
 }
-.links{
-    
-    background-color: aqua;
-}
+
 .home .My-Skils {
     display: flex;
     align-items: center;
@@ -78,6 +75,8 @@ i{
     margin-right: 100px;
     font-weight: bold;
     margin-top: 40px;
+    width: 80%;
+    margin: auto;
 }
 .home .My-Skils  span{
     margin-left: 16px;
@@ -89,4 +88,19 @@ i{
     padding: 1rem;
     cursor: pointer;
   
+}
+@media screen and (max-width:550px) {
+
+    .home .My-Skils {
+        flex-direction: column;
+    }
+
+
+    .home .img{
+        width: 250px;
+        height: 250px;
+    }
+
+
+
 }

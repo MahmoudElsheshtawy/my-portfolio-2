@@ -50,8 +50,9 @@ const Home = () => {
                                     <img className='skil' src={css} alt="" />
                                     <img className='skil' src={javascript} alt="" />
                                     <img className='skil' src={react} alt="" />
-                                    <img className='skil' src={tillwend} alt="" />
                                     <img className='skil' src={redux} alt="" />
+
+                                    <img className='skil' src={tillwend} alt="" />
                               </div>  
                         </div>  
                       
