@@ -1,0 +1,69 @@
+
+
+
+.home .img{
+    padding: 3px;
+    border-radius: 50%;
+    background-color:rgb(79, 79, 79);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 9px, rgb(255 255 255 / 30%);
+    order: 1;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    justify-self: center;
+   animation: profile_animation 8s ease-in-out infinite 1s;
+}
+@keyframes profile_animation  {
+    0%{
+        border-radius:60% 40% 30% 70%/60% 30% 70% 40%; 
+    }
+    50%{
+        border-radius:30% 60% 70% 40%/50% 60% 30% 60%; 
+    }
+    100%{
+
+        border-radius:60% 40% 30% 70%/60% 30% 70% 40%;
+
+    }
+}
+.container-home{
+   padding-top: 6rem;
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+   
+  
+    
+position: relative;
+}
+.info{
+
+    flex: 1;
+}
+.info h1{
+    font-size: 35px;
+   
+}
+.hi-img{
+width: 10px;
+height: 10px;
+
+
+
+}
+.pin{
+    width: 20px;
+    color: rgb(255, 4, 4);
+
+}
+i{
+    font-family: 'Protest Riot', sans-serif;
+}
