@@ -3,12 +3,12 @@ import 'boxicons'
 // import { Typewriter } from 'react-simple-typewriter'
 // import video from '../../assets/video.mp4'
 import './Home.css'
-// import html from '../../photo/html.png'
-// import css from '../../photo/css.png'
-// import javascript from '../../photo/javascript.png'
-// import react from '../../photo/react.png'
-// import tillwend from '../../photo/tillwend.png'
-import hi from '../../photo/hi.png'
+import html from '../../photo/html.png'
+import css from '../../photo/css.png'
+import javascript from '../../photo/javascript.png'
+import react from '../../photo/react.png'
+import tillwend from '../../photo/tillwend.png'
+import redux from '../../photo/redux.png'
 import pin from '../../photo/pin.png'
 import me from '../../assets/me.jpg'
 import { GrLocationPin } from "react-icons/gr";
@@ -25,37 +25,37 @@ const Home = () => {
     <div className='home' id='Home'>
                    
                     <div className="container-home"  >
+                          <div className="right">
+                            <div className="info">
+                              <h1>Front-End React <br/> Developer  </h1>
+                              <p>Hi I'm <i> Mahmoud Elsheshtawy </i> A passionate Front-end React<br/>
+                                Developer based in : Al Buhayrah, Egypt<FaLocationPin className='pin' /> </p>
+                            </div>
 
-                      <div className="right">
-
-                        <div className="info">
-                           <h1>Front-End React <br/> Developer    </h1>
-                          
-                          
-                           <p>Hi I'm <i> Mahmoud Elsheshtawy </i> A passionate Front-end React<br/> Developer based in : Al Buhayrah, Egypt<FaLocationPin className='pin' /> </p>
-                          
-                               
-                        </div>
-                    </div>
+                         </div>
   
                    
                       <div  className="left"  >
                         <img className='img' src={me} alt="" />
-                        {/* data-aos="zoom-out-down" */}
                       </div>
 
-                    </div>
-                  
-                  </div>
-                    //    <div className="My-Skils">
-                    //   <h2>Tech Stack<span>  |</span></h2>
-                    //  <div  className="Skils">
-                    //   <img src={html} alt="" />
-                    //   <img src={css} alt="" />
-                    //   <img src={javascript} alt="" />
-                    //   <img src={react} alt="" />
-                    //   <img src={tillwend} alt="" />
-                    //  </div> 
+                      
+
+                    </div>   
+                        <div className="My-Skils" style={{background:"#aaa"}}>
+                              <h2>Tech Stack<span>|</span></h2>
+
+                              <div  className="Skils">
+                                    <img className='skil' src={html} alt="" />
+                                    <img className='skil' src={css} alt="" />
+                                    <img className='skil' src={javascript} alt="" />
+                                    <img className='skil' src={react} alt="" />
+                                    <img className='skil' src={tillwend} alt="" />
+                                    <img className='skil' src={redux} alt="" />
+                              </div>  
+                        </div>  
+                      
+           </div>       
 
   )
 }

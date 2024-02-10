@@ -46,7 +46,7 @@ position: relative;
 }
 .info{
 
-    flex: 1;
+   
 }
 .info h1{
     font-size: 35px;
@@ -66,4 +66,27 @@ height: 10px;
 }
 i{
     font-family: 'Protest Riot', sans-serif;
+}
+.links{
+    
+    background-color: aqua;
+}
+.home .My-Skils {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.home .My-Skils  span{
+    margin-left: 16px;
+}
+.home .Skils img{
+    width: 40px;
+    margin-right: 30px;
+    margin-left: 20px;
+    padding: 1rem;
+    cursor: pointer;
+  
 }
