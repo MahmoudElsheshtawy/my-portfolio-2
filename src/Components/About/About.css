@@ -57,3 +57,49 @@
 }
 
 
+/* button */
+.about .button-one {
+    padding: 0.1rem 4rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    background-color: rgba(176, 173, 173, 0.953);
+    position: relative;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .about .button-one .text {
+    position: absolute;
+    left: .9rem;
+    top: -0.7rem;
+    transition: 0.4s ease-in-out;
+    color: rgb(50, 50, 50);
+  }
+  
+  .about .svg {
+    transform: translateY(-20px) rotate(30deg);
+    opacity: 0;
+    width: 1.6rem;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .about .button-one:hover {
+    background-color: rgb(50, 50, 50);
+  }
+  
+  .about .button-one:hover .svg {
+    display: inline-block;
+    transform: translateY(0px) rotate(0deg);
+    opacity: 1;
+  }
+  
+  .about .button-one:hover .text {
+    opacity: 0;
+  }
+  
+  .about .button-one:active {
+    scale: 0.97;
+  }

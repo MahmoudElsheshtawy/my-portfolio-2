@@ -1,7 +1,7 @@
 .Contact{                                             
     font-family: "Roboto","sans-serf";
-    background-color: #333;
-    /* padding: 0; */
+    background-color: #272626;
+  /* color: aliceblue; */
 }
 .Contact h1{
   color: aliceblue;
@@ -10,29 +10,36 @@
 }
 .Contact .contanier-Contact {
      padding: 1rem;
-     /* background-color: #1da1f2; */
      display: flex;
      justify-content: space-around;
      align-items: center;
-     /* display: grid;
-     grid-template-columns: repeat(auto-fit ,minmax(23rem, 1fr));
-     gap: 1.5rem; */
-   
+     flex-wrap: wrap; 
+     width: 80%;
+     margin: auto;
 }
 .contanier-Contact .box {
-  /* padding: .5rem; */
-flex: 1;
-background-color: aqua;
- 
-}
-.box ul li{ 
-    list-style: none;
-    margin-bottom: 10px;
-    transition: .5s ease;
-    /* margin-left: 150px; */
- 
-}
+    padding:.5rem;
+    flex: 1;
+    /* background-color: rgb(255, 136, 0); */
+    margin: 2px;
+    height: 20vh;
 
+}
+.box .one{
+  margin-top: 12px;
+  color: aliceblue;
+}
+.box ul li { 
+    list-style: none;
+    margin-bottom: 5px;
+    transition: .5s ease;
+
+ 
+}
+.box a{
+  color: aliceblue ;
+
+}
 .Contact ul li:hover{
     padding-left: 10px; 
 }

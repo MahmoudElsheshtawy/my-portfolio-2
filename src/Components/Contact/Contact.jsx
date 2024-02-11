@@ -13,10 +13,9 @@ function Contact() {
         <div className="box">
              
               <ul>
-               
                 <li><a href='#Home'>Home</a></li>
-                <li><a href='#Portfolio'>Portfolio</a></li>
                 <li><a href='#About'>About Me</a></li>
+                <li><a href='#Portfolio'>Portfolio</a></li>
                 <li><a href='#Contact Us'>Contact Me</a></li>
               </ul>
             
