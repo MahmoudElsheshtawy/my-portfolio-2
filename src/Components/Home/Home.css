@@ -1,4 +1,6 @@
-
+.home{
+    position: relative;
+}
 
 
 .home .img{
@@ -39,25 +41,10 @@
     align-items: center;
     flex-wrap: wrap;
 
-   
-  
-    
-position: relative;
-}
-.info{
-
-   
 }
 .info h1{
     font-size: 35px;
    
-}
-.hi-img{
-width: 10px;
-height: 10px;
-
-
-
 }
 .pin{
     width: 20px;
@@ -77,6 +64,7 @@ i{
     margin-top: 40px;
     width: 80%;
     margin: auto;
+    font-family: "Roboto","sans-serf";
 }
 .home .My-Skils  span{
     margin-left: 16px;

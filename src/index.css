@@ -72,8 +72,9 @@ button:focus-visible {
 body {
   padding: 0;
   margin: 0;
-   box-sizing: border-box;
+   /* box-sizing: border-box; */
   transition: 1s;
+  /* text-decoration: none; */
 }
 .App .Sections{
  width: 100%;
@@ -157,3 +158,4 @@ top: 75px;
     transform: translate(2.2);
    
   }
+  /* cv */

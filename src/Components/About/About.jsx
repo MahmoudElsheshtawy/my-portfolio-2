@@ -11,7 +11,7 @@ const About = () => {
             </div>
             <div className="left">
                 <h1>ABOUT <span> ME</span></h1>
-                <h3>A dedicated Front-end Developer based in Alexandria, egypt.</h3>
+                <h3>A dedicated Front-end Developer based in Al Buhayrah, egypt.</h3>
                 <p>
                         As a Junior Front-End Developer, I possess an impressive arsenal of 
                         skills in HTML, CSS, JavaScript. React.
@@ -22,6 +22,7 @@ const About = () => {
                         and techniques I am also a team player who thrives in collaborating
                         with cross-functional teams toproduce outstanding web applications
                 </p>
+                   
             </div>
           </div>
         
