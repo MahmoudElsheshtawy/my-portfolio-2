@@ -10,18 +10,22 @@
 }
 .Contact .contanier-Contact {
      padding: 1rem;
-     background-color: #1da1f2;
+     /* background-color: #1da1f2; */
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
      /* display: grid;
      grid-template-columns: repeat(auto-fit ,minmax(23rem, 1fr));
      gap: 1.5rem; */
    
 }
-.Contact .contanier .box {
-  padding: .5rem;
-  /* background-color: #1da1f2 */
+.contanier-Contact .box {
+  /* padding: .5rem; */
+flex: 1;
+background-color: aqua;
  
 }
-.Contact .contanier .box ul li{ 
+.box ul li{ 
     list-style: none;
     margin-bottom: 10px;
     transition: .5s ease;

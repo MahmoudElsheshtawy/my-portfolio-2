@@ -10,8 +10,8 @@ function Contact() {
       <h1>Contact Me</h1>
       <div className="contanier-Contact">
  
-        <div className="box-1">
-              <div className="one">
+        <div className="box">
+             
               <ul>
                
                 <li><a href='#Home'>Home</a></li>
@@ -19,11 +19,11 @@ function Contact() {
                 <li><a href='#About'>About Me</a></li>
                 <li><a href='#Contact Us'>Contact Me</a></li>
               </ul>
-              </div>
+            
         </div>
     
           
-            <div className="box-2">
+            <div className="box">
             
                           <div className="one">
                                   <BiLogoGmail className='icon'/>
@@ -40,7 +40,7 @@ function Contact() {
                           </div>
             </div>
   
-            <div className="box-3" >
+            <div className="box" >
                             <div className="image-contact">                          
                                 <div className="social-links">
                                  
