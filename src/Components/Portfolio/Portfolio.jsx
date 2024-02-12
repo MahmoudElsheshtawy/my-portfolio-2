@@ -1,9 +1,5 @@
-/* eslint-disable jsx-a11y/alt-text */
+
 import './Portfolio.css'
-// import ecomerce from '../../assets/photo/ecomerce.png'
-// import prayers from '../../assets/photo/prayers.png'
-// import todo from '../../assets/photo/todo.png'
-// import socail from '../../assets/photo/socail.png'
 
 
 
@@ -28,7 +24,7 @@ const Portfolio = ({information,id ,link ,imgUrl,tools,name}) => {
                           <img></img>    
                     </div>
                     
-                  <div className="btn" style={{display:'flex',justifyContent:'space-around',alignItems:'center',marginTop:'50px'}} >
+                  <div className="btn" style={{display:'flex',justifyContent:'space-around',alignItems:'center',marginTop:'20px',marginBottom:"10px"}} >
                   <button className="button" ><a style={{color:'#fff'}} href={link}>Deploy</a></button>
 
                     <button className="button">
