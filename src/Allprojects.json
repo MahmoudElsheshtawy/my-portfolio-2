@@ -15,19 +15,20 @@
         "imgUrl": "/photo/drama.png",
         "link" : "https://654927b776994a28389f7c61--legendary-stroopwafel-b59bb2.netlify.app/"
       },
+
       {
-        "id": 3,
+        "id": 4,
         "name": "To-do list",
         "information": "A simple to-do list with use react & Css that enables you to write down your tasks so that you remember and accomplish them",
         "tools": "react && vanila-css",
         "imgUrl": "/photo/todo.png",
         "link" : "https://todo-2foal12wo-mahmoudelsheshtawy.vercel.app/"
       },
-   
+
       {
         "id": 5,
         "name": "Calculator",
-        "information": "fffffffffffff",
+        "information": "",
         "tools": "react && vanila-css",
         "imgUrl": "/photo/Calcolator.png",
         "link" : "https://calculator-9omnvceny-mahmoudelsheshtawy.vercel.app/"
@@ -39,7 +40,7 @@
         "information": "",
         "tools": "react && vanila-css",
         "imgUrl": "/photo/xo.jpeg",
-        "link" : "https://calculator-9omnvceny-mahmoudelsheshtawy.vercel.app/"
+        "link" : "https://x-o-eight.vercel.app/"
       }
 
 ]
