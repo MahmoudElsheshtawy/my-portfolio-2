@@ -4,8 +4,8 @@
         "name": "E-commerce-app",
         "information": "With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need.",
         "tools": "react && vanila-css",
-        "imgUrl": "/photo/ecomerce.png",
-        "link" : "https://e-commerce-app-git-master-mahmoudelsheshtawy.vercel.app/"
+        "imgUrl": "/photo/ecomerce.png"
+
       },
       {
         "id": 2,
