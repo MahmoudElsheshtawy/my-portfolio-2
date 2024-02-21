@@ -5,7 +5,8 @@
     "information": "with top notch frontend technologies such as React, Redux & CSS. i used core concepts of react js such as jsx, components, props, state,  lifecycle of components, conditional rendering, lists, keys & Redux.",
     "tools": "react && vanila-css",
     "imgUrl": "/photo/drama.png",
-    "link": "https://654927b776994a28389f7c61--legendary-stroopwafel-b59bb2.netlify.app/"
+    "link": "https://654927b776994a28389f7c61--legendary-stroopwafel-b59bb2.netlify.app/",
+    "code": "https://github.com/MahmoudElsheshtawy/Drama-app"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "information": "With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need.",
     "tools": "react && vanila-css",
     "imgUrl": "/photo/ecomerce.png",
-    "link": "https://e-commerce-app-fawn-iota.vercel.app/"
+    "link": "https://e-commerce-app-fawn-iota.vercel.app/",
+    "code": "https://github.com/MahmoudElsheshtawy/e-commerce-app"
   },
 
   {
@@ -22,7 +24,8 @@
     "information": "A simple to-do list with use react & Css that enables you to write down your tasks so that you remember and accomplish them",
     "tools": "react && vanila-css",
     "imgUrl": "/photo/todo.png",
-    "link": "https://todo-2foal12wo-mahmoudelsheshtawy.vercel.app/"
+    "link": "https://todo-2foal12wo-mahmoudelsheshtawy.vercel.app/",
+    "code": "https://github.com/MahmoudElsheshtawy/react-todolist"
   },
 
   {
@@ -31,7 +34,8 @@
     "information": "With simplicity of design, I created a calculator using React & Vanila-CSS",
     "tools": "react && vanila-css",
     "imgUrl": "/photo/Calcolator.png",
-    "link": "https://calculator-9omnvceny-mahmoudelsheshtawy.vercel.app/"
+    "link": "https://calculator-9omnvceny-mahmoudelsheshtawy.vercel.app/",
+    "code": "https://github.com/MahmoudElsheshtawy/calculator-app"
   },
 
   {
@@ -40,6 +44,7 @@
     "information": "",
     "tools": "react && vanila-css",
     "imgUrl": "/photo/xo.jpeg",
-    "link": "https://x-o-eight.vercel.app/"
+    "link": "https://x-o-eight.vercel.app/",
+    "code": "https://github.com/MahmoudElsheshtawy/X-o"
   }
 ]

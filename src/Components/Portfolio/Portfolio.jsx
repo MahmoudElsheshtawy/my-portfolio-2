@@ -1,5 +1,5 @@
 import "./Portfolio.css";
-const Portfolio = ({ information, link, imgUrl, name }) => {
+const Portfolio = ({ information, link, imgUrl, name ,code }) => {
   return (
     <>
       <div
@@ -72,7 +72,7 @@ const Portfolio = ({ information, link, imgUrl, name }) => {
                     Deploy
                   </a>
                 </button>
-                <button className="button">Code</button>
+                <a href={code} className="button">Code</a>
               </div>
             </div>
             <div
