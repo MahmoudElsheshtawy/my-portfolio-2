@@ -1,46 +1,45 @@
 [
-    {
-        "id": 1,
-        "name": "E-commerce-app",
-        "information": "With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need.",
-        "tools": "react && vanila-css",
-        "imgUrl": "/photo/ecomerce.png"
+  {
+    "id": 1,
+    "name": "Movies-app",
+    "information": "with top notch frontend technologies such as React, Redux & CSS. i used core concepts of react js such as jsx, components, props, state,  lifecycle of components, conditional rendering, lists, keys & Redux.",
+    "tools": "react && vanila-css",
+    "imgUrl": "/photo/drama.png",
+    "link": "https://654927b776994a28389f7c61--legendary-stroopwafel-b59bb2.netlify.app/"
+  },
+  {
+    "id": 2,
+    "name": "E-commerce-app",
+    "information": "With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need.",
+    "tools": "react && vanila-css",
+    "imgUrl": "/photo/ecomerce.png",
+    "link": "https://e-commerce-app-fawn-iota.vercel.app/"
+  },
 
-      },
-      {
-        "id": 2,
-        "name": "Movies-app",
-        "information": "with top notch frontend technologies such as React, Redux & CSS. i used core concepts of react js such as jsx, components, props, state,  lifecycle of components, conditional rendering, lists, keys & Redux.",
-        "tools": "react && vanila-css",
-        "imgUrl": "/photo/drama.png",
-        "link" : "https://654927b776994a28389f7c61--legendary-stroopwafel-b59bb2.netlify.app/"
-      },
+  {
+    "id": 4,
+    "name": "To-do list",
+    "information": "A simple to-do list with use react & Css that enables you to write down your tasks so that you remember and accomplish them",
+    "tools": "react && vanila-css",
+    "imgUrl": "/photo/todo.png",
+    "link": "https://todo-2foal12wo-mahmoudelsheshtawy.vercel.app/"
+  },
 
-      {
-        "id": 4,
-        "name": "To-do list",
-        "information": "A simple to-do list with use react & Css that enables you to write down your tasks so that you remember and accomplish them",
-        "tools": "react && vanila-css",
-        "imgUrl": "/photo/todo.png",
-        "link" : "https://todo-2foal12wo-mahmoudelsheshtawy.vercel.app/"
-      },
+  {
+    "id": 5,
+    "name": "Calculator",
+    "information": "With simplicity of design, I created a calculator using React & Vanila-CSS",
+    "tools": "react && vanila-css",
+    "imgUrl": "/photo/Calcolator.png",
+    "link": "https://calculator-9omnvceny-mahmoudelsheshtawy.vercel.app/"
+  },
 
-      {
-        "id": 5,
-        "name": "Calculator",
-        "information": "",
-        "tools": "react && vanila-css",
-        "imgUrl": "/photo/Calcolator.png",
-        "link" : "https://calculator-9omnvceny-mahmoudelsheshtawy.vercel.app/"
-      },
-   
-      {
-        "id": 6,
-        "name": "Tic Tac to",
-        "information": "",
-        "tools": "react && vanila-css",
-        "imgUrl": "/photo/xo.jpeg",
-        "link" : "https://x-o-eight.vercel.app/"
-      }
-
+  {
+    "id": 6,
+    "name": "X-O",
+    "information": "",
+    "tools": "react && vanila-css",
+    "imgUrl": "/photo/xo.jpeg",
+    "link": "https://x-o-eight.vercel.app/"
+  }
 ]

@@ -1,53 +1,47 @@
-.Contact{                                             
-    font-family: "Roboto","sans-serf";
-    background-color: #272626;
-  /* color: aliceblue; */
+.Contact {
+  font-family: "Roboto", "sans-serf";
+  background-color: #272626;
 }
-.Contact h1{
+.Contact h1 {
   color: aliceblue;
   text-align: center;
   padding: 2rem;
 }
 .Contact .contanier-Contact {
-     padding: 1rem;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     flex-wrap: wrap; 
-     width: 80%;
-     margin: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
 }
 .contanier-Contact .box {
-    padding:.5rem;
-    flex: 1;
-    /* background-color: rgb(255, 136, 0); */
-    margin: 2px;
-    height: 20vh;
-
+  padding: 0.5rem;
+  flex: 1;
+  margin: 2px;
+  height: 20vh;
 }
-.box .one{
+.box .one {
   margin-top: 12px;
   color: aliceblue;
 }
-.box ul li { 
-    list-style: none;
-    margin-bottom: 5px;
-    transition: .5s ease;
-
- 
+.box ul li {
+  list-style: none;
+  margin-bottom: 5px;
+  transition: 0.5s ease;
 }
-.box a{
-  color: aliceblue ;
-
+.box a {
+  color: aliceblue;
 }
-.Contact ul li:hover{
-    padding-left: 10px; 
+.Contact ul li:hover {
+  padding-left: 10px;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .Contact .contanier .box {
-    padding: .5rem;
-    width:fit-content;
+    padding: 0.5rem;
+    width: fit-content;
   }
   .social-btn svg {
     height: 20px;
@@ -57,87 +51,82 @@
     height: 40px;
     width: 40px;
   }
-  .Contact .social-links,.flex-center {
-    margin-top:10px;
-    transition: .6s;
+  .Contact .social-links,
+  .flex-center {
+    margin-top: 10px;
+    transition: 0.6s;
   }
-  .Contact .box ul li{ 
+  .Contact .box ul li {
     margin-left: 0px;
-   
+  }
 }
-  
-}
-
 
 /* socal */
-.social-links,.flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: #e81cff; */
-    margin-top:90px;
-  }
-  
-  .social-btn {
-    cursor: pointer;
-    height: 50px;
-    width: 50px;
-    font-family: 'Titillium Web', sans-serif;
-    color: #333;
-    border-radius: 5px;
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-    background: white;
-    margin: 5px;
-    transition: 0.3s;
-    justify-content: center;
-  }
-  
-  .social-btn svg {
-    height: 24px;
-    width: 24px;
-  }
-  
-  .social-btn span {
-    width: 0px;
-    overflow: hidden;
-    transition: 0.5s;
-    text-align: center;
-    margin-left: 5px;
-  }
-  
-  .social-btn:hover {
-    width: 150px;
-    border-radius: 5px;
-  }
-  
-  .social-btn:hover span {
-    padding: 2px;
-    width: 80px;
-  }
-  
-  #twitter svg {
-    fill: #1da1f2;
-  }
-  
-  #linkedin svg {
-    fill: #0e76a8;
-  }
-  
-  #github {
-    fill: #333;
-  }
-  /* link contact */
-  .Contact .contanier .one{
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    font-weight: 500;
+.social-links,
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
 
-  }
-  .Contact .box .icon{
-  
-    color: aliceblue;
-    font-size: 20px;
-    margin-right: 5px;
-  }
-  
+.social-btn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-family: "Titillium Web", sans-serif;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  margin: 5px;
+  transition: 0.3s;
+  justify-content: center;
+}
+
+.social-btn svg {
+  height: 24px;
+  width: 24px;
+}
+
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 0.5s;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.social-btn:hover {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.social-btn:hover span {
+  padding: 2px;
+  width: 80px;
+}
+
+#twitter svg {
+  fill: #1da1f2;
+}
+
+#linkedin svg {
+  fill: #0e76a8;
+}
+
+#github {
+  fill: #333;
+}
+/* link contact */
+.Contact .contanier .one {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+.Contact .box .icon {
+  color: aliceblue;
+  font-size: 20px;
+  margin-right: 5px;
+}
