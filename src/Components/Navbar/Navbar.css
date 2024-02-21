@@ -2,7 +2,8 @@
   background-color: rgb(255, 255, 255);
   padding: 0.3rem;
 
-  color: rgb(10, 10, 10);
+  /* color: rgb(10, 10, 10); */
+ 
   font-family: "Roboto", sans-serif;
   width: 100%;
   position: fixed;
@@ -146,14 +147,14 @@ a {
     background-color: rgb(7, 11, 48);
     display: flex;
     align-items: center;
-    top: 60px;
+    top: 55px;
     left: -100%;
     width: 70%;
-    transition: all 0.4s ease;
+    transition: all 0.2s ease;
   }
   .nav-menu.active {
     left: 0px;
-    transition: 1s ease-in-out;
+    transition: .6s ease-in-out;
   }
   .nav-menu ul {
     display: flex;
@@ -186,4 +187,10 @@ a {
     width: 100%;
     text-align: center;
   }
+  a {
+    
+    color: #ebebeb;
+ 
+  }
+  
 }

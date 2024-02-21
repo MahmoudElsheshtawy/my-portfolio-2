@@ -41,7 +41,7 @@
   {
     "id": 6,
     "name": "X-O",
-    "information": "",
+    "information": " Nice game",
     "tools": "react && vanila-css",
     "imgUrl": "/photo/xo.jpeg",
     "link": "https://x-o-eight.vercel.app/",
