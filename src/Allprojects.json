@@ -18,8 +18,9 @@
     "code": "https://github.com/MahmoudElsheshtawy/e-commerce-app"
   },
 
+
   {
-    "id": 4,
+    "id": 5,
     "name": "To-do list",
     "information": "A simple to-do list with use react & Css that enables you to write down your tasks so that you remember and accomplish them",
     "tools": "react && vanila-css",
@@ -29,7 +30,7 @@
   },
 
   {
-    "id": 5,
+    "id": 6,
     "name": "Calculator",
     "information": "With simplicity of design, I created a calculator using React & Vanila-CSS",
     "tools": "react && vanila-css",
@@ -39,7 +40,7 @@
   },
 
   {
-    "id": 6,
+    "id": 7,
     "name": "X-O",
     "information": " Nice game",
     "tools": "react && vanila-css",

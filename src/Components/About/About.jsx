@@ -3,10 +3,10 @@ import about from "../../photo/about.webp";
 
 const About = () => {
   const onButtonClick = () => {
-    const pdfUrl = "MahmoudElsheshtawyResume.pdf";
+    const pdfUrl = "MahmoudElsheshtawy(CV).pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "MahmoudElsheshtawyResume.pdf"; // specify the filename
+    link.download = "MahmoudElsheshtawy(CV).pdf"; // specify the filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

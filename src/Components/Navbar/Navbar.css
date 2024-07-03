@@ -151,6 +151,7 @@ a {
     left: -100%;
     width: 70%;
     transition: all 0.2s ease;
+   
   }
   .nav-menu.active {
     left: 0px;
