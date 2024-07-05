@@ -32,7 +32,7 @@ function Contact() {
             </div>
             <div className="one">
               <BiSolidPhone className="icon" />
-              <span>+20-01067870535</span>
+              <span>01093482958</span>
             </div>
             <div className="one">
               <MdLocationPin className="icon" />

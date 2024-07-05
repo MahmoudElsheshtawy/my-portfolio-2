@@ -22,7 +22,7 @@ export const preLoaderAnim = () => {
     })
     .from(".texts-container span", {
       duration: 1.5,
-      delay: 1,
+      delay: 0,
       y: 70,
       skewY: 10,
       stagger: 0.4,
@@ -59,25 +59,25 @@ export const preLoaderAnim = () => {
         ease: "Power3.easeOut",
         onComplete: mobileLanding(),
       },
-      "-=2"
+      "-=3"
     )
     .from(".landing__main .text", {
-      duration: 2,
+      duration: 0.1,
       // scale: 0,
-      y: 10,
+      y: 1,
       opacity: 0,
       stagger: {
-        amount: 2,
+        amount: 1,
       },
       ease: "power3.easeInOut",
     })
     .from(".links .item", {
-      duration: 0.5,
+      duration: 0.1,
       opacity: 0,
       delay: window.innerWidth < 763 ? -3 : -0.6,
       // y: 80,
       stagger: {
-        amount: 0.5,
+        amount: 0.1,
       },
       ease: "expo.easeOut",
       onComplete: animateMainShape(),
@@ -93,7 +93,7 @@ export const preLoaderAnim = () => {
       opacity: 0,
       delay: -1,
       ease: "power3.easeInOut",
-      stagger: 1,
+      stagger:1,
     })
     .to(".preloader", {
       duration: 0,
@@ -149,10 +149,10 @@ export const openMenu = () => {
     );
 
   // change cursor color when nav is open
-  // tl.to(".cursor", {
-  //   delay: -1,
-  //   css: { className: "+=cursor-active" },
-  // }).to(".cursor2", { delay: -1, css: { className: "+=cursor2-active" } });
+//   tl.to(".cursor", {
+//     delay: -1,
+//     css: { className: "+=cursor-active" },
+//   }).to(".cursor2", { delay: -1, css: { className: "+=cursor2-active" } });
 };
 
 export const closeMenu = () => {
@@ -186,7 +186,7 @@ export const closeMenu = () => {
     });
 
   // tl.to(".cursor-active", {
-  //   css: { className: "+=cursor" },
+    // css: { className: "+=cursor" },
   // }).to(".cursor2-active", { css: { className: "+=cursor2" } });
 };
 
@@ -218,7 +218,7 @@ const animateShapes = () => {
   });
   infiniteTl
     .to(".shapes .shape", {
-      duration: 4,
+      duration: 1,
       rotate: 360,
       delay: -1,
       ease: "power3.easeInOut",
@@ -231,7 +231,7 @@ const animateShapes = () => {
       ease: "power3.easeInOut",
     })
     .to(".shapes .shape", {
-      duration: 3,
+      duration: 1,
       rotate: 0,
       ease: "power3.easeInOut",
       stagger: 1,
@@ -244,7 +244,7 @@ const animateShapes = () => {
       stagger: 1,
     })
     .to(".shapes .shape", {
-      duration: 1.5,
+      duration: 1,
       opacity: 1,
       ease: "power3.easeInOut",
       stagger: 1,
@@ -257,19 +257,19 @@ const animateMainShape = () => {
   });
   infiniteTl
     .to(".shapes .main-circle", {
-      duration: 6,
+      duration: 1,
       x: -30,
       y: -50,
       ease: "expo.easeOut",
     })
     .to(".shapes .main-circle", {
-      duration: 6,
+      duration: 1,
       x: -30,
       y: 50,
       ease: "expo.easeOut",
     })
     .to(".shapes .main-circle", {
-      duration: 4,
+      duration: 1,
       x: 0,
       y: 0,
       ease: "expo.easeOut",
@@ -303,7 +303,7 @@ export const boxExit = (e) => {
 
 export const fadeIn = (el) => {
   gsap.to(el, {
-    duration: 2,
+    duration: 1,
     opacity: 1,
     y: -60,
     ease: "power4.out",
@@ -312,7 +312,7 @@ export const fadeIn = (el) => {
 
 export const fadeOut = (el) => {
   gsap.to(el, {
-    duration: 1,
+    duration: 0.1,
     opacity: 0,
     y: -20,
     ease: "power4.out",
