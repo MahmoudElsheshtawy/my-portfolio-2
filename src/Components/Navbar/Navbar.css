@@ -171,6 +171,9 @@ a {
   .hamborger {
     display: block;
   }
+  a{
+    color: #eae8e8;
+  }
 }
 @media screen and (max-width: 570px) {
   .navbar .container {
