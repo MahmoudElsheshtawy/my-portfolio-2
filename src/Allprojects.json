@@ -13,9 +13,9 @@
     "name": "E-commerce-app",
     "information": "With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need.",
     "tools": "react && vanila-css",
-    "imgUrl": "/photo/ecomerce.png",
-    "link": "https://e-commerce-app-fawn-iota.vercel.app/",
-    "code": "https://github.com/MahmoudElsheshtawy/e-commerce-app"
+    "imgUrl": "/photo/e.png",
+    "link": "https://store-app-eight-lovat.vercel.app/",
+    "code": "https://github.com/MahmoudElsheshtawy/store-app"
   },
   {
     "id": 4,
