@@ -1,5 +1,6 @@
 import "./Portfolio.css";
-const Portfolio = ({ information, link, imgUrl, name ,code }) => {
+const Portfolio = ({ information, link, imgUrl, name ,code ,tools,
+}) => {
   return (
     <>
       <div
@@ -33,7 +34,14 @@ const Portfolio = ({ information, link, imgUrl, name ,code }) => {
               </span>
 
               <div className="stck-use" style={{ marginTop: "30px" }}>
-                <span
+
+
+
+ Tools: {tools}
+
+
+
+                {/* <span
                   style={{
                     padding: "3px",
                     color: "#000",
@@ -54,7 +62,8 @@ const Portfolio = ({ information, link, imgUrl, name ,code }) => {
                 >
                   vanila-Css
                 </span>
-                <img></img>
+                <img></img> */}
+                {}
               </div>
 
               <div
