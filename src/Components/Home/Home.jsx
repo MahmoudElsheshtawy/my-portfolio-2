@@ -10,7 +10,7 @@ import tillwend from "../../photo/tillwend.png";
 import redux from "../../photo/redux.png";
 import linked from "../../photo/linked.png";
 import github from "../../photo/github.png";
-import me from "../../assets/me.jpg";
+import mei from "../../assets/myi.jpg";
 import { FaLocationPin } from "react-icons/fa6";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -37,7 +37,7 @@ const Home = () => {
         </div>
 
         <div className="left-home">
-          <img className="img" src={me} alt="" />
+          <img className="img" src={mei} alt="" />
         </div>
       </div>
       <div className="My-Skils">
